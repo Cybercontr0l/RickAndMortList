@@ -1,8 +1,8 @@
-# RickAndMortyApp
+# RickAndMortyList
 
 ## Description
 
-RickAndMortyApp is an iOS application that displays characters from the Rick and Morty universe, fetched via an API. The app shows detailed information about the characters, including their name, status, species, gender, and location. It also provides an option to watch episodes featuring the characters.
+RickAndMortyList is an iOS application that displays characters from the Rick and Morty universe, fetched via an API. The app shows detailed information about the characters, including their name, status, species, gender, and location. It also provides an option to watch episodes featuring the characters.
 
 ## Features
 
@@ -28,7 +28,7 @@ The app follows the MVVM (Model-View-ViewModel) pattern:
 - Models conform to the `Codable` protocol for easy decoding of data from the API.
 
 ### View
-- Represents the user interface and displays data on the screen.
+- Presents the user interface and displays data on the screen according to the [Figma design](https://www.figma.com/design/6f8BQNhRhVRwOJxctuZcTt/mobile-developer.-junior?node-id=0-1&p=f&t=KcOBpayJjuWIcpXo-0)
 - Includes all SwiftUI views such as `ContentView`, `CharacterRow`, `CharacterImage`, `CharacterInfo`, `CharacterLocation`, `CharacterNameAndStatus`, `CharacterSpeciesAndGender`, `StatusView`, and `WatchEpisodesButton`.
 - Views are updated automatically when data changes, using data provided by the ViewModel.
 
