@@ -42,15 +42,6 @@ The app follows the MVVM (Model-View-ViewModel) pattern:
 - **Color+Hex:** Extension for creating colors from hexadecimal values.
 - **MonochromeModifier:** ViewModifier for changing the color of images based on the character's status (alive or dead).
 
-## Requirements
-
-- Xcode 12.0 or higher.
-- iOS 13.0 or higher.
-
 ## API
 
 This project uses the [Rick and Morty API](https://rickandmortyapi.com/) to fetch character data.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
